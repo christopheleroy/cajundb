@@ -17,10 +17,15 @@ curl -d '{"hello":"Hello World!","friendly":true}' http://yourserver.domain.net/
 
 
 To get the document back, just request it by _id:
+
 curl http://yourserver.domain.net/cgi-bin/cajun.cgi?tlt725K0yxqOGmvs
 
+
 To delete the document, use the DELETE http method:
+
 curl -X DELETE http://yourserver.domain.net/cgi-bin/cajun.cgi?tlt725K0yxqOGmvs
+
+
 
 To search for document by a simple (perl regexp) search string:
 
